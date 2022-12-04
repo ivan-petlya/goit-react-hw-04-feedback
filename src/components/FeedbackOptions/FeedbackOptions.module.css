@@ -1,0 +1,26 @@
+.buttonBox {
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+button:focus,
+button:hover {
+  border-color: #fdfdef;
+  box-shadow: 0 0 10px 5px #f1e8e1;
+}
+.buttonBox > button {
+  border: 1px solid rgba(196, 245, 118, 0.39);
+  border-radius: 3px;
+  padding: 5px;
+  font: 16px italic;
+  font-weight: bold;
+}
+.good {
+  background-color: chartreuse;
+}
+.neutral {
+  background-color: darkorange;
+}
+.bad {
+  background-color: crimson;
+}
