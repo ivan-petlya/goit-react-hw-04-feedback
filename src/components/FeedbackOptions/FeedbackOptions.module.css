@@ -3,7 +3,6 @@
   display: flex;
   gap: 10px;
 }
-button:focus,
 button:hover {
   border-color: #fdfdef;
   box-shadow: 0 0 10px 5px #f1e8e1;
